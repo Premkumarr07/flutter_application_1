@@ -1,0 +1,9 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cmake.sourceDirectory": "E:/flutter project/flutter_application_1/windows",
+    "cSpell.words": [
+        "languageselectionscreen",
+        "mobilenumberscreen",
+        "verifyphonescreen"
+    ]
+}

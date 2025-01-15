@@ -1,0 +1,113 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+v 
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.8.1
+  fl_chart: ^0.69.2
+  charts_flutter: ^0.12.0
+  flutterfire_cli: ^1.0.0
+  flutter_svg: ^2.0.9
+  iconify_flutter: ^0.0.5
+  collection: ^1.17.1
+  flutter_i18n: ^0.36.2
+  get_it: ^8.0.3
+  provider: ^6.0.5
+  http: ^6.0.5
+  uuid: ^4.3.3
+  json_annotation: ^4.8.1
+  logging: ^1.1.1
+  path_provider: ^2.0.14
+  flutter_secure_storage: ^9.0.0
+  cupertino_icon: ^1.0.5
+  package_info_plus: ^8.1.2
+  url_laucher: ^6.1.10
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.2.3
+  flutter_cache_manager: ^3.3.0
+  envied: ^1.0.0
+
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+
+  percent_indicator: ^4.2.3
+  horizontal_picker: ^1.2.0
+  table_calender: ^3.0.9
+  introduction_screen: ^3.1.8
+  auto_size_text: ^3.0.0
+  animated_flip_counter: ^0.3.4
+
+  mobile_scanner: ^6.0.2
+  
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  sentry_flutter: ^8.12.0
+
+  supabase_flutter: ^2.3.4
+  intl: ^0.19.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.3.2
+  json_serializable: ^6.6.1
+  flutter_launcher_icon: ^0.14.2
+  hive_generator: ^2.0.1
+  envied_generator: ^1.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/pexels-elly-fairytale-3823076.jpg
+    - lib/assets/images/pexels-marcus-aurelius-6787202.jpg
+    - lib/assets/images/pexels-miriam-alonso-7592468.jpg
+    - lib/assets/images/pexels-ron-lach-9225406.jpg
+    - lib/assets/images/pexels-vo-van-ti-n-2037497312-29934040.jpg
+  
+  
+  fonts:
+    - family: CustomIcons
+      fonts:
+      - asset: fonts/CustomIcons.ttf
+    - family: Poppins
+      fonts:
+      - asset: fonts/Poppins-Black.ttf
+      - asset: fonts/Poppins-BlackItalic.ttf
+        style: italic
+      - asset: fonts/Poppins-Bold.ttf
+      - asset: fonts/Poppins-BoldItalic.ttf
+        style: italic
+      - asset: fonts/Poppins-ExtraBold.ttf
+      - asset: fonts/Poppins-ExtraBoldItalic.ttf
+        style: italic
+      - asset: fonts/Poppins-ExtraLight.ttf
+      - asset: fonts/Poppins-ExtraLightItalic.ttf
+        style: italic
+      - asset: fonts/Poppins-Italic.ttf
+        style: italic
+      - asset: fonts/Poppins-Light.ttf
+      - asset: fonts/Poppins-LightItalic.ttf
+        style: italic
+      - asset: fonts/Poppins-Medium.ttf
+      - asset: fonts/Poppins-MediumItalic.ttf
+        style: italic
+      - asset: fonts/Poppins-Regular.ttf
+      - asset: fonts/Poppins-SemiBold.ttf
+      - asset: fonts/Poppins-SemiBoldItalic.ttf
+        style: italic
+      - asset: fonts/Poppins-Thin.ttf
+      - asset: fonts/Poppins-ThinItalic.ttf
+        style: italic
+        
